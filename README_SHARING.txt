@@ -5,8 +5,8 @@ Apple Messages / Quick Look and cloud-drive previews may show HTML and CSS but d
 
 BEST METHOD: HOST THE FILES AS A WEBSITE (GITHUB PAGES)
 1. Sign in to github.com. Create a PUBLIC repository, e.g. seattle-snake-draft.
-2. Upload ALL THREE files to the root of the repository:
-   index.html, with_ops.html, without_ops.html
+2. Upload ALL files to the root of the repository:
+   index.html, with_ops.html
 3. Repository > Settings > Pages > Build and deployment > Deploy from a branch.
 4. Select main branch and /(root), then Save.
 5. Once published, copy the website URL shown on Pages, e.g.
@@ -14,7 +14,7 @@ BEST METHOD: HOST THE FILES AS A WEBSITE (GITHUB PAGES)
 6. Text this HTTPS link to teammates. It opens in a regular browser and executes the app's JavaScript.
 
 ALTERNATIVE – SHARE THE HTML FILE ITSELF
-Send with_ops.html or without_ops.html as an attachment. Recipients must DOWNLOAD the file and use Open With > Google Chrome (or Safari), rather than opening it in a Messages/Drive preview.
+Send with_ops.html as an attachment. Recipients must DOWNLOAD the file and use Open With > Google Chrome (or Safari), rather than opening it in a Messages/Drive preview.
 
 IMPORTANT
 - The files are self-contained (no external library or web API).
